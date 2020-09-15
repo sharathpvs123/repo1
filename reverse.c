@@ -1,5 +1,5 @@
 #include <stdio.h>
-int main() {
+void rev() {
     int n, rev = 0, remainder;
     printf("Enter an integer: ");
     scanf("%d", &n);
@@ -9,5 +9,5 @@ int main() {
         n /= 10;
     }
     printf("Reversed number = %d", rev);
-    return 0;
+   // return 0;
 }
