@@ -1,6 +1,7 @@
 #include <stdio.h> 
 void big3()
 {
+	{
 int num1, num2, num3;
 printf("Enter the values of num1, num2 and num3\n");
 scanf("%d %d %d", &num1, &num2, &num3);
@@ -21,4 +22,4 @@ else if (num2 > num3)
 	 else
 printf("num3 is the greatest among three \n");
 }
-
+}
